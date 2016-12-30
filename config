@@ -1,0 +1,22 @@
+import core.Constant;
+import plugin.Plugin;
+import util.UrlPool;
+
+public class MyConfig implements MainConfig {
+
+	@Override
+	public void configConstant(Constant cont) {
+		cont.setThreadNum(5);
+	}
+
+	@Override
+	public void configPlugin(Plugin plugin) {
+		// TODO Auto-generated method stub		
+	}
+
+	@Override
+	public void configUrl(UrlPool urlPool) {
+		// TODO Auto-generated method stub		
+	}
+
+}
