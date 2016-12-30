@@ -1,0 +1,73 @@
+package core;
+
+public class Constant {
+	private int threadNum;
+	private int depth;
+	
+	private int crawlerMode;   //depth width
+	private int logMode;
+	private int retrySpan;
+	private int maxPage;
+	
+	//private boolean checkUpdate;
+	//private long checkUpdateSpan;
+	private boolean autoAgent;
+	
+	public int getThreadNum() {
+		return threadNum;
+	}
+
+	public void setThreadNum(int threadNum) {
+		this.threadNum = threadNum;
+	}
+
+	public int getDepth() {
+		return depth;
+	}
+
+	public void setDepth(int depth) {
+		this.depth = depth;
+	}
+
+	public int getCrawlerMode() {
+		return crawlerMode;
+	}
+
+	public void setCrawlerMode(int crawlerMode) {
+		this.crawlerMode = crawlerMode;
+	}
+
+	public int getLogMode() {
+		return logMode;
+	}
+
+	public void setLogMode(int logMode) {
+		this.logMode = logMode;
+	}
+
+	public int getRetrySpan() {
+		return retrySpan;
+	}
+
+	public void setRetrySpan(int retrySpan) {
+		this.retrySpan = retrySpan;
+	}
+
+	public int getMaxPage() {
+		return maxPage;
+	}
+
+	public void setMaxPage(int maxPage) {
+		this.maxPage = maxPage;
+	}
+
+	public boolean isAutoAgent() {
+		return autoAgent;
+	}
+
+	public void setAutoAgent(boolean autoAgent) {
+		this.autoAgent = autoAgent;
+	}
+
+	
+}
